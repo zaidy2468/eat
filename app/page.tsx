@@ -53,7 +53,7 @@ export default function Home() {
 
   return (
     <>
-      <div className=" relative w-full h-full  ">
+      <div className=" relative w-full h-full overflow-hidden ">
         <div
           className={`bg-green-950 h-[810px] w-full overflow-hidden ${
             isAbsolute2 ? "absolute top-[3380px] " : "fixed top-[0px]"
