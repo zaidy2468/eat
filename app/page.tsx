@@ -23,7 +23,7 @@ export default function Home() {
       console.log(divFront?.clientHeight);
 
       console.log(window.scrollY);
-      if (window.scrollY >= divFront?.clientHeight) {
+      if (window.scrollY >= 1785) {
         setIsAbsolute(true);
 
         console.log("chala");
