@@ -6,6 +6,11 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens:{
+      'sm':'340px',
+      'md':'600px',
+      'lg':'1000px'
+    },
     extend: {
       rotate:{
         '17':'15deg'
