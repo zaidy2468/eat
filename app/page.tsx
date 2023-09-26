@@ -11,8 +11,9 @@ export default function Home() {
   const [isAbsolute1, setIsAbsolute1] = useState(false);
   const [isAbsolute2, setIsAbsolute2] = useState(false);
   const [nav, setNav] = useState(false);
-  let lastScrollY = window.scrollY;
+  
   useEffect(() => {
+    let lastScrollY = window.scrollY;
     function handleScroll() {
       const divElement1 = document.getElementById("gr");
       const divElement2 = document.getElementById("wh");
