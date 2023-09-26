@@ -76,14 +76,14 @@ export default function Home() {
         >
           <div className="flex p-[4rem] items-center justify-between sm:flex-col lg:flex-row">
             
-              <img src="https://eat-curious.com/wp-content/uploads/2022/12/home-4.svg" className="sm:top-[8rem] sm:right-[15rem] lg:static sm:relative sm:left-[0rem] sm:top-[12rem] sm:w-3/2 lg:w-1/3"/>
+              <img src="https://eat-curious.com/wp-content/uploads/2022/12/home-4.svg" className="sm:top-[6rem] sm:right-[15rem] lg:static sm:relative sm:left-[0rem] sm:top-[12rem] sm:w-1/2 lg:w-1/3"/>
             
             <div className=" text-white ">
               <h3 className="font-bold  tracking-tighter lg:text-[70px] sm:text-[40px] lg:static sm:relative sm:top-[-17rem]  ">
                 FLAVOURSOME FOOD
                 <br /> FOR EVERYONE
               </h3>
-              <p className="  tracking-tighter  lg:text-[18px] sm:text-[15px] lg:static sm:relative sm:top-[1.5rem]">
+              <p className="  tracking-tighter  lg:text-[1.5rem] sm:text-[15px] lg:static sm:relative sm:top-[2.5rem]">
                 Our curious creations are made for vegans and meat-
                 <br />
                 eaters alike. Because meat-free doesn’t mean flavour
@@ -214,19 +214,19 @@ export default function Home() {
               </div>
             </ul>
 
-            <div className="text-white flex font-black lg:text-[12rem]  sm:text-[8rem]  tracking-tighter lg:px-[16rem] sm:px-[4rem] absolute uppercase sm:flex-col lg:flex-row   ">
+            <div className="text-white flex font-black lg:text-[12rem]  sm:text-[8rem]  tracking-tighter lg:px-[16rem] sm:px-[3rem] absolute uppercase sm:flex-col lg:flex-row   ">
               <div className="">MEAT</div>
               <span className="sm:opacity-0 lg:opacity-100" >-</span>
               <div className="sm:relative lg:static sm:top-[-17rem] sm:mx-6">FREE</div>
             </div>
-            <div className="lg:w-[22rem] lg:mx-[38rem] lg:mt-[11rem] sm:w-[22rem] sm:mx-[5rem] sm:mt-[15rem] ">
+            <div className="lg:w-[22rem] lg:mx-[38rem] lg:mt-[11rem] sm:w-[22rem] sm:mx-[4rem] sm:mt-[15rem] ">
               <img
                 src="https://eat-curious.com/wp-content/uploads/2022/11/CuriousBurger1_Edit-e1668701643143-1024x815.png
           
 "
               ></img>
             </div>
-            <div className="text-white flex font-black tracking-tighter lg:text-[12rem]  lg:px-[16rem] lg:mt-[-9rem] lg:flex-row sm:flex-col sm:text-[8rem] sm:px-[4rem] sm:mt-[-5rem]">
+            <div className="text-white flex font-black tracking-tighter lg:text-[12rem]  lg:px-[16rem] lg:mt-[-9rem] lg:flex-row sm:flex-col sm:text-[8rem] sm:px-[3rem] sm:mt-[-5rem]">
               <div>YOUR</div>
               <span className="px-7 sm:opacity-0 lg:opacity-100"></span>
               <div className="sm:relative lg:static sm:top-[-6rem] sm:mx-3">MIND</div>
@@ -389,15 +389,15 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="flex flex-col justify-content px-[160px] py-[71px] top-[150rem] relative overflow-hidden">
-          <div className="">
-            <h4 className="font-bold mt-3 tracking-tighter text-[30px] px-[480px]">
+        <section className="flex flex-col justify-content px-[160px] py-[71px] lg:top-[150rem] sm:top-[145rem] relative  max-w-screen== max-h-screen">
+          <div className="font-extra-bold  tracking-tighter lg:static sm:relative lg:mt-3 sm:top-[-4rem] text-[30px] lg:mx-[480px]">
+            <h4 className="">
               FEATURES &<br />
               <span className="mx-[10px]"></span>BENEFITS
             </h4>
           </div>
-          <div className="flex  justify-between ">
-            <div className="mt-[120px] mb-[120px] ">
+          <div className="flex  justify-between lg:flex-row sm:flex-col">
+            <div className="lg:mt-[120px] lg:mb-[120px] sm:mt-[80px] sm:mb-[80px]">
               <div className="">
                 <img src="https://eat-curious.com/wp-content/uploads/2022/12/home-9.png" />
               </div>
@@ -408,7 +408,7 @@ export default function Home() {
                 suitable for everyone.
               </p>
             </div>
-            <div className="mt-[120px] mb-[120px] ">
+            <div className="lg:mt-[120px] lg:mb-[120px] sm:mt-[80px] sm:mb-[80px] ">
               <div className="">
                 <img src="	https://eat-curious.com/wp-content/uploads/2022/12/home-11.png" />
               </div>
@@ -419,7 +419,7 @@ export default function Home() {
                 suitable for everyone.
               </p>
             </div>
-            <div className="mt-[120px] mb-[120px] ">
+            <div className="lg:mt-[120px] lg:mb-[120px] sm:mt-[80px] sm:mb-[80px] ">
               <div className="">
                 <img src="https://eat-curious.com/wp-content/uploads/2022/12/home-12.png" />
               </div>
@@ -430,7 +430,7 @@ export default function Home() {
                 suitable for everyone.
               </p>
             </div>
-            <div className="mt-[120px] mb-[120px] ">
+            <div className="lg:mt-[120px] lg:mb-[120px] sm:mt-[80px] sm:mb-[80px]">
               <div className="">
                 <img src="https://eat-curious.com/wp-content/uploads/2022/12/home-10.png" />
               </div>
@@ -444,16 +444,17 @@ export default function Home() {
           </div>
         </section>
       </div>
-      <div className="relative bg-green-950 top-[288rem] overflow-hidden   rounded-se-2xl ">
-        <div className="relative p-[3rem] mx-[5rem]">
+      <div className="relative bg-green-950 lg:top-[288rem] sm:top-[390rem] overflow-hidden    lg:curved sm:curved1-small">
+        <div className="relative p-[1rem] mx-[5rem]">
           <svg
             className="tiles__title"
-            width="1224"
-            height="312"
+            width="lg:1224 sm:1000"
+            height="lg:312"
             viewBox="0 0 1224 312"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio="none"
+            
           >
             <g clip-path="url(#clip0_587_15588)">
               <path
@@ -511,7 +512,7 @@ export default function Home() {
               </clipPath>
             </defs>
           </svg>
-          <div className=" flex flex-wrap mt-[3rem] gap-[1.2rem]">
+          <div className=" flex flex-wrap mt-[3rem] gap-[1.2rem] lg:static sm:relative sm:left-[-3rem]">
             <div className="cards p-5 bg-green-400 rounded-lg ">
               <div className="title ">
                 <p className="font-extra-bold text-[60px] tracking-tighter">
@@ -585,21 +586,21 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" bg-pink-400 rounded flex font-extra-bold text-green-950 font-black justify-center items-center m-[3rem] mx-[35rem] h-[3rem] w-[7rem]">
+          <div className=" bg-pink-400 rounded flex font-extra-bold text-green-950 font-black justify-center items-center m-[3rem] lg:mx-[35rem] sm:mx-[3rem] h-[3rem] w-[7rem]">
             <button className="p-2 tracking-tighter  ">VIEW ALL</button>
           </div>
         </div>
-        <div className="flex p-16 gap-20">
+        <div className="flex lg:p-16 sm:mx-4 lg:gap-20">
           <img
             src="https://eat-curious.com/wp-content/uploads/2023/07/home-54-1024x576.jpg"
-            className="w-[49rem] h-[20rem] rounded-lg"
+            className="lg:w-[49rem]  lg:static sm:relative sm:w-[40rem] lg:h-[20rem] sm:h-[19rem] rounded-lg sm:top-[28rem]"
           />
-          <div className="text-neutral-50 mb-[3rem]">
-            <h5 className="text-[60px]  font-extra-bold">
-              WE'RE GROWING MORE THAN <br />
-              PLANTS...
+          <div className="sm:flex sm:flex-col text-neutral-50 mb-[3rem] lg:static sm:relative sm:left-[-20rem] w-full">
+            <h5 className="lg:text-[60px] sm:text-[30px] font-extra-bold tracking-tighter ">
+              WE'RE GROWING MORE THAN   PLANTS...
+             
             </h5>
-            <p className="text-[18px]">
+            <p className="lg:text-[18px] sm:text-[10px] lg:static sm:relative">
               We’re here to grow a positive, curious and thoughtful attitude to
               plant-based food. Which is why we put curiosity at the heart of
               everything we do. So much so, we’ve built our own vertical farm -
@@ -609,26 +610,26 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="flex p-8 m-[8rem] gap-[2rem] w-full h-full ">
-          <div className="relative transparent bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/afro-fusion-spice-bowl-1024x724.jpg')] bg-cover bg-center w-[26rem] h-[44rem] rounded-lg    ">
+        <div className="flex p-8 m-[8rem] lg:gap-[2rem] sm:gap-[0.3rem] w-full h-full sm:w-2xl lg:static sm:relative sm:top-[12rem] sm:right-[8rem] overflow-hidden ">
+          <div className="relative transparent bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/afro-fusion-spice-bowl-1024x724.jpg')] bg-cover bg-center lg:w-[26rem] lg:h-[44rem] sm:w-[380rem] sm:h-[30rem] rounded-lg    ">
             <div className="absolute inset-0 bg-black opacity-[0.39]"></div>
             <button className="absolute bg-yellow-500 bg-opacity-[1] translate-x-[16rem] rotate-[15deg] flex justify-center mt-3 rounded box-border  ">
               <p className="font-extra-bold p-1">MINCE</p>
             </button>
           </div>
-          <div className="relative transparent bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/auto-draft-2.jpg')] bg-cover bg-center w-[26rem] h-[44rem] rounded-lg    ">
+          <div className="relative transparent bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/auto-draft-2.jpg')] bg-cover bg-center w-[26rem] h-[44rem] rounded-lg  lg:w-[26rem] lg:h-[44rem] sm:w-[380rem] sm:h-[30rem]  ">
             <div className="absolute inset-0 bg-black opacity-[0.39]"></div>
             <button className="absolute bg-yellow-500 bg-opacity-[1] translate-x-[16rem]  rotate-[15deg] flex justify-center mt-3 rounded box-border  ">
               <p className="font-extra-bold p-1">MINCE</p>
             </button>
           </div>
-          <div className="relative transparent bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/auto-draft-3.jpg')] bg-cover bg-center w-[26rem] h-[44rem] rounded-lg    ">
+          <div className="relative transparent bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/auto-draft-3.jpg')] bg-cover bg-center w-[26rem] h-[44rem] rounded-lg  lg:w-[26rem] lg:h-[44rem] sm:w-[380rem] sm:h-[30rem]  ">
             <div className="absolute inset-0 bg-black opacity-[0.39]"></div>
             <button className="absolute bg-yellow-500 bg-opacity-[1] translate-x-[16rem] rotate-[15deg] flex justify-center mt-3 rounded box-border  ">
               <p className="font-extra-bold p-1">MINCE</p>
             </button>
           </div>
-          <div className="relative transparent bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/auto-draft-4.jpg')] bg-cover bg-center w-[26rem] h-[44rem] rounded-lg    ">
+          <div className="relative transparent bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/auto-draft-4.jpg')] bg-cover bg-center w-[26rem] h-[44rem] rounded-lg lg:w-[26rem] lg:h-[44rem] sm:w-[380rem] sm:h-[30rem]   ">
             <div className="absolute inset-0 bg-black opacity-[0.39]"></div>
             <button className="absolute bg-yellow-500 bg-opacity-[1] translate-x-[16rem] rotate-[15deg] flex justify-center mt-3 rounded box-border  ">
               <p className="font-extra-bold p-1">MINCE</p>
@@ -636,7 +637,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative bg-white-500 top-[288rem] flex flex-col items-center gap-[5rem] mt-[3rem]">
+      <div className="relative bg-white-500 lg:top-[288rem] sm:top-[400rem] flex flex-col items-center gap-[5rem] mt-[3rem]">
         <h5 className="font-extra-bold text-[4rem]  ">INTRIGUED?</h5>
         <img
           src="	https://eat-curious.com/wp-content/uploads/2022/12/home-6.svg "

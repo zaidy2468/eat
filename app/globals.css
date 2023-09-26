@@ -66,8 +66,22 @@
   .aspect-ratio-2500-1767 {
     aspect-ratio: 2500 / 1767;
   }
+  .curved{
+    border-top-left-radius: 450% 200rem;
+    border-top-right-radius: 450% 200rem;
+   
+  }
+  .curved1-small{
+    border-top-left-radius: 1250% 200rem;
+    border-top-right-radius: 1250% 200rem;
+   
+  }
 }
 
 .animate-slide {
   animation: slide 20s linear infinite;
 }
+
+  
+
+
