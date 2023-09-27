@@ -444,7 +444,7 @@ export default function Home() {
           </div>
         </section>
       </div>
-      <div className="relative bg-green-950 lg:top-[288rem] sm:top-[390rem] overflow-hidden    lg:curved sm:curved1-small">
+      <div className="relative bg-green-950 lg:top-[288rem] sm:top-[390rem] lg:h-[190rem] sm:h-[280rem]    lg:curved sm:curved1-small">
         <div className="relative p-[1rem] mx-[5rem]">
           <svg
             className="tiles__title"
@@ -611,25 +611,25 @@ export default function Home() {
           </div>
         </div>
         <div className="flex p-8 m-[8rem] lg:gap-[2rem] sm:gap-[0.3rem] w-full h-full sm:w-2xl lg:static sm:relative sm:top-[12rem] sm:right-[8rem] overflow-hidden ">
-          <div className="relative transparent bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/afro-fusion-spice-bowl-1024x724.jpg')] bg-cover bg-center lg:w-[26rem] lg:h-[44rem] sm:w-[380rem] sm:h-[30rem] rounded-lg    ">
+          <div className="relative transparent sm:flex-none bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/afro-fusion-spice-bowl-1024x724.jpg')] bg-cover bg-center lg:w-[26rem] lg:h-[44rem] sm:w-[20rem] sm:h-[28rem] sm:rounded  lg:rounded-lg  ">
             <div className="absolute inset-0 bg-black opacity-[0.39]"></div>
             <button className="absolute bg-yellow-500 bg-opacity-[1] translate-x-[16rem] rotate-[15deg] flex justify-center mt-3 rounded box-border  ">
               <p className="font-extra-bold p-1">MINCE</p>
             </button>
           </div>
-          <div className="relative transparent bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/auto-draft-2.jpg')] bg-cover bg-center w-[26rem] h-[44rem] rounded-lg  lg:w-[26rem] lg:h-[44rem] sm:w-[380rem] sm:h-[30rem]  ">
+          <div className="relative transparent sm:flex-none bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/auto-draft-2.jpg')] bg-cover bg-center lg:w-[26rem] lg:h-[44rem] sm:w-[20rem] sm:h-[28rem] sm:rounded  lg:rounded-lg  ">
             <div className="absolute inset-0 bg-black opacity-[0.39]"></div>
             <button className="absolute bg-yellow-500 bg-opacity-[1] translate-x-[16rem]  rotate-[15deg] flex justify-center mt-3 rounded box-border  ">
               <p className="font-extra-bold p-1">MINCE</p>
             </button>
           </div>
-          <div className="relative transparent bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/auto-draft-3.jpg')] bg-cover bg-center w-[26rem] h-[44rem] rounded-lg  lg:w-[26rem] lg:h-[44rem] sm:w-[380rem] sm:h-[30rem]  ">
+          <div className="relative transparent sm:flex-none bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/auto-draft-3.jpg')] bg-cover bg-center lg:w-[26rem] lg:h-[44rem] sm:w-[20rem] sm:h-[28rem] sm:rounded  lg:rounded-lg  ">
             <div className="absolute inset-0 bg-black opacity-[0.39]"></div>
             <button className="absolute bg-yellow-500 bg-opacity-[1] translate-x-[16rem] rotate-[15deg] flex justify-center mt-3 rounded box-border  ">
               <p className="font-extra-bold p-1">MINCE</p>
             </button>
           </div>
-          <div className="relative transparent bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/auto-draft-4.jpg')] bg-cover bg-center w-[26rem] h-[44rem] rounded-lg lg:w-[26rem] lg:h-[44rem] sm:w-[380rem] sm:h-[30rem]   ">
+          <div className="relative transparent sm:flex-none bg-[url('https://eat-curious.com/wp-content/uploads/2023/07/auto-draft-4.jpg')] bg-cover bg-center lg:w-[26rem] lg:h-[44rem] sm:w-[20rem] sm:h-[28rem] sm:rounded  lg:rounded-lg  ">
             <div className="absolute inset-0 bg-black opacity-[0.39]"></div>
             <button className="absolute bg-yellow-500 bg-opacity-[1] translate-x-[16rem] rotate-[15deg] flex justify-center mt-3 rounded box-border  ">
               <p className="font-extra-bold p-1">MINCE</p>
@@ -637,14 +637,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative bg-white-500 lg:top-[288rem] sm:top-[400rem] flex flex-col items-center gap-[5rem] mt-[3rem]">
-        <h5 className="font-extra-bold text-[4rem]  ">INTRIGUED?</h5>
+      <div className="relative bg-white-500 lg:top-[288rem] sm:top-[390rem] flex flex-col items-center gap-[5rem] mt-[3rem]">
+        <h5 className="font-extra-bold lg:text-[4rem] sm:text-[3rem] lg:static sm:relative sm:top-[8rem] ">INTRIGUED?</h5>
         <img
           src="	https://eat-curious.com/wp-content/uploads/2022/12/home-6.svg "
           alt=""
           className="w-[24rem] h-[23rem]"
         />
-        <button className="absolute bg-pink-400 tracking-tighter font-extra-bold mt-[10rem] rounded-lg text-[25px]">
+        <button className="absolute bg-pink-400 tracking-tighter font-extra-bold lg:mt-[10rem] sm:mt-[12rem] rounded-lg text-[25px]">
           <p className="p-2">LET'S CHAT</p>
         </button>
       </div>
